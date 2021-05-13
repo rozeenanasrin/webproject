@@ -212,22 +212,7 @@ label {
 }
 /* our services style ends  */
 
-/* contact us starts here  */
 
-.contact-style {
-  margin: 10rem 0;
-}
-
-label {
-  margin-top: 2rem;
-  margin-bottom: 0;
-}
-
-.form-control {
-  padding: 2rem 1rem;
-  font-size: 1.7rem;
-  font-weight: 600;
-}
 
 #emailHelp,
 ::placeholder {
