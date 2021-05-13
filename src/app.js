@@ -3,6 +3,7 @@ const path = require("path");
 require("./db/conn");
 const hbs = require("hbs");
 
+
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -36,7 +37,6 @@ app.get("/contact", (req, res) => {
 
     res.render("contact");
 });
-
 
 app.listen(port, () =>{
          console.log(`server port no. is ${port}`);
